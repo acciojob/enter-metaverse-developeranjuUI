@@ -4,6 +4,7 @@ const enterBtn = document.getElementById('enterBtn');
 
 enterBtn.addEventListener('click',()=>{
 	let newStatus = document.createElement('h1');
+	newStatus.id = 'status';
 	newStatus.textContent = 'Entered Metaverse';
 	status.replaceWith(newStatus);
 })
